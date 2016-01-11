@@ -1,0 +1,92 @@
+.container-fluid {
+    height: 80px;
+    background-color: #f8f8f8;
+    margin-top: -7px;
+}
+
+.sidebar {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    min-height: 900px;
+    min-width: 14%;
+    float: left;
+    border-right: 2px solid #e7e7e7;
+    color: #337ab7;
+}
+
+.content {
+    height: 900px;
+    width: 84%;
+    margin: 10px;
+    float: left;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.sidebar-item1 {
+    background-color: #eee;
+    padding: 10px 15px;
+    margin-left: -12px;
+}
+
+.sidebar-item1:hover {
+    background-color: rgba(173, 216, 230, 0.38);
+    cursor: pointer;
+}
+
+.sidebar-item2 {
+    background-color: #eee;
+    padding: 10px 15px;
+    margin-left: -12px;
+}
+
+.sidebar-item2:hover {
+    background-color: rgba(173, 216, 230, 0.38);
+    cursor: pointer;
+}
+
+.h1 {
+    width: 10%;
+}
+
+.uzytkownicy {
+    font-size: 44px;
+}
+
+.filtrowanie {
+    font-size: 34px;
+}
+
+.pesel {
+    width: 3.333333% !important;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.btn-success {
+    margin: 15px;
+}
+
+.input-pesel {
+    width: 254px;
+}
+
+.filtruj {
+    width: 4.3% !important;
+}
+
+.input-data {
+    margin-left: 14px;
+    margin-top: 10px;
+    float: left;
+    display: none;
+}
+
+.input-button {
+    margin-left: 14px;
+    float: left;
+    display: none;
+    margin-top: -13px;
+}
