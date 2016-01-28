@@ -61,7 +61,7 @@
 
 .pesel {
     width: 3.333333% !important;
-    margin-right: 20px;
+    margin-right: 100px;
     font-size: 23px;
 }
 
@@ -89,4 +89,11 @@
     float: left;
     display: none;
     margin-top: -13px;
+}
+.filtrowanie1{
+    display: none;
+}
+.highlight {
+    color:red;
+
 }
