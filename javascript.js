@@ -12,6 +12,7 @@ $(document).ready(function() {
         row.append($("<td/>").html($(".input-data.lastname :input").val()));
         row.append($("<td/>").html($(".input-data.username :input").val()));
         row.append($("<td/>").html($(".input-data.fillpesel :input").val()));
+        row.append($("<td/>").html($("<button type='button' class='btn btn-danger usun'>usuń</button>" )));
         $('.table1 tbody').append(row);
         $('.filtrowanie1').addClass("show");
         bindRemoveRow(row);
@@ -27,11 +28,18 @@ $(document).ready(function() {
         var pesel = $('.input-pesel').val();
         $('.table1 tbody tr td').each(function() {
           var td = $(this);
-          console.log(td)
+          // console.log(td)
             if (td.text() === pesel) {
-                td.addClass('highlight');
+                td.parent().addClass('highlight');
                 console.log($(this))
             };
         });
+    });
+    $('.clean').on('click', function(){
+        $(".table1 tbody tr").removeClass('highlight');
+        $('.input-pesel').val("");
+    });
+    $('#filtr').on('click', function(){
+        $('.filtrowanie1').toggleClass('show');
     });
 });

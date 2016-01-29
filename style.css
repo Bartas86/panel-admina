@@ -1,7 +1,7 @@
 .container-fluid {
     height: 80px;
     background-color: #f8f8f8;
-    margin-top: -7px;
+ /*   margin-top: -7px;*/
 }
 
 .sidebar {
@@ -71,6 +71,8 @@
 
 .input-pesel {
     width: 254px;
+    color: black;
+    height: 34px;
 }
 
 .filtruj {
@@ -93,12 +95,19 @@
 
 .filtrowanie1 {
     display: none;
-    background-color: rgb(0, 84, 111);
-    color: white;
+    background-color: #303F9F;
+    box-shadow: 2px 4px 10px rgb(6, 6, 6);
+    color: silver;
     padding-bottom: 16px;
+    padding-left: 10px;
     
 }
 
 .highlight {
-    color: red;
+    background-color: #E91E63 !important;
+    color: white;
+    font-weight: 700;
+}
+#filtr{
+    margin-bottom: -12px;
 }
